@@ -55,14 +55,17 @@ nav li {
 }
 li.navLi {
 	margin: 0;
- 	border-bottom: solid 2px #FF3433;
+ 	border-style: solid solid none solid;
+	border-width: 2px;
+	border-color: #FF3433;
+	border-radius: 10px 10px 0 0;
 }
 li.currentTab {
-	border: solid 2px #FF3433;
-	border-bottom: none;
-	border-radius: 10px 10px 0 0;
-	margin-bottom: 0.2em;
+	border-bottom: solid;
+	background-blend-mode: saturation(100%);
+	/* margin-bottom: 0.2em; */
 }
+
 i.fa-home {
 	color: #FF3433;
 	margin-top: -0.5em;
